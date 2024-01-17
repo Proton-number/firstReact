@@ -1,0 +1,92 @@
+body {
+    background: black;
+    color: white;
+    height: 100vh;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 25px;
+    width: 400px;
+    background: hsl(213, 19%, 18%);
+}
+
+.card-img {
+    background: hsl(213, 16%, 22%);
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+}
+
+img {
+    margin: 10px;
+}
+
+.card-text {
+    font-size: 15px;
+    color: rgb(180, 178, 178);
+}
+
+.flex-container {
+    display: flex; 
+  }
+  
+  .flex-container > button {
+    margin: 12px;
+    padding: 23px;
+    font-size: 15px;
+    border-radius: 50%;
+    /* background: hsl(210, 4%, 40%); */
+    background: hsl(216, 12%, 54%);
+    color: hsl(225, 4%, 20%);
+  }
+
+  button.rateButtons:hover {
+    background: hsl(25, 97%, 53%);
+    color: white;
+  }
+
+.submit {
+    width: 100%;
+    border-radius: 20px;
+    background: hsl(25, 97%, 53%);
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.submit:hover {
+    color: hsl(25, 97%, 53%);
+    background: white;
+}
+
+.card-img2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.selection {
+    margin: auto;
+    width: 48%;
+    font-size: 15px;
+    padding: 10px;
+    background: hsl(213, 16%, 22%);
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+    font-weight: 400;
+}
+
+.card-head {
+    text-align: center;
+}
+
+.card-text2 {
+    text-align: center;
+    font-size: 15px;
+}
