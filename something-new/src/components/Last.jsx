@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import icon from "/src/image/icon-star.svg";
+import { Link } from "react-router-dom";
 
 function Last() {
   return (
@@ -24,7 +25,10 @@ function Last() {
           <button className="rateButtons">5</button>
         </div>
 <br />
-<a href="{`/First`}"><button className="submit">SUBMIT</button></a>
+
+         <Link to="/First"   >
+             <button className="submit">SUBMIT</button>
+            </Link>
 
       </div>
     </>
