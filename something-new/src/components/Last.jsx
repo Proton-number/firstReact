@@ -26,9 +26,9 @@ function Last() {
         </div>
 <br />
 
-         <Link to="/First"   >
+         <Link to="/First">
              <button className="submit">SUBMIT</button>
-            </Link>
+            </Link>  //This is the Link tag
 
       </div>
     </>
