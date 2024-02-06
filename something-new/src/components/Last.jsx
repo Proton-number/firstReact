@@ -24,7 +24,7 @@ function Last() {
           <button className="rateButtons">5</button>
         </div>
 <br />
-        <button className="submit">SUBMIT</button>
+<a href="{`/First`}"><button className="submit">SUBMIT</button></a>
 
       </div>
     </>
